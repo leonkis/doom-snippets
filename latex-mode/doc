@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: doc
+# key: doc
+# --
+\documentclass[12pt]{article}
+\begin{document}
+
+\section{$1}
+$0
+
+\end{document}

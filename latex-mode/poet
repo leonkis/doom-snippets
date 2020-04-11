@@ -1,0 +1,34 @@
+# -*- mode: snippet -*-
+# name: poet
+# key: poet
+# --
+\documentclass[14pt]{extbook}
+\usepackage[T1]{fontenc}
+\usepackage{kpfonts,baskervald}
+\usepackage[utf8]{inputenc}
+\usepackage[left=3cm, right=3cm, top=3cm]{geometry}
+\usepackage[english]{babel}
+\usepackage[autostyle, english = american]{csquotes} \MakeOuterQuote{"}
+\usepackage{verse}
+\usepackage{parskip}
+\renewcommand{\poemtitlefont}{\normalfont\large\itshape\centering}
+\setlength{\parskip}{1em}
+% This makes sure the page doesn't break at poem title:
+\makeatletter
+\renewcommand{\@vstypeptitle}[1]{%
+	\vspace{\beforepoemtitleskip}
+	{\poemtitlefont #1\par}\nobreak
+	\vspace{\afterpoemtitleskip}
+}
+\makeatother
+
+\begin{document}
+
+\poemtitle{$1}
+\begin{verse}
+	$0
+\end{verse}
+
+\vspace{6mm}
+
+\end{document}

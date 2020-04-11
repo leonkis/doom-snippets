@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: verse
+# key: ver
+# --
+\begingroup
+\fontsize{13pt}{12pt}\selectfont
+\begin{verse}
+	$0
+\end{verse}
+\endgroup

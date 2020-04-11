@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: poem
+# key: poem
+# --
+\poemtitle{$1}
+\begin{verse}
+	$0
+\end{verse}
+
+\vspace{9mm}
