@@ -28,8 +28,6 @@
 
 \begin{document}
 
-\chapter*{$1}
-
-	$0
+    \chapter*{$0}
 
 \end{document}

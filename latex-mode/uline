@@ -2,4 +2,4 @@
 # name: uline
 # key: u
 # --
-\uline{$1} $0
+\uline{$1}$0

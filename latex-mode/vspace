@@ -2,4 +2,4 @@
 # name: vspace
 # key: v
 # --
-\vspace{$1mm} $0
+\vspace*{$1mm}$0
