@@ -13,8 +13,8 @@
 % This modifies all chapter headings, centering them, changing font size, etc.
 \usepackage{titlesec}
 \titleformat{\chapter}[display]
-	{\normalfont\huge\centering}{\chaptertitlename\
-	\thechapter}{20pt}{\Huge}
+    {\normalfont\huge\centering}{\chaptertitlename\
+    \thechapter}{20pt}{\Huge}
 % This does wonders to change margins, page numbers and so on.
 \usepackage{fancyhdr}
 \fancyhf{}

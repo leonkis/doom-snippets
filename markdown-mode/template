@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: Template
+# key: md
+# condition: t 
+# --
+---
+title: $1
+indent: true
+geometry: margin=5cm
+header-includes:
+    - \usepackage{setspace}\onehalfspacing
+output: html_document
+---
+
+$0
